@@ -44,7 +44,7 @@ RUN /container/tool/install-service
 ADD environment /container/environment/99-default
 
 # Set phpLDAPadmin data directory in a data volume
-VOLUME ["/var/www/phpldapadmin"]
+VOLUME ["/var/www"]
 
 # Expose http and https default ports
 EXPOSE 80 443
